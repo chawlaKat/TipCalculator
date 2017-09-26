@@ -1,0 +1,46 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/splitTipLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/splitTipLabelText"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/splitTipResultText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:text="@string/uninitializedText"
+        app:layout_constraintBaseline_toBaselineOf="@+id/splitTipLabel"
+        app:layout_constraintLeft_toLeftOf="@+id/splitTotalResultText" />
+
+    <TextView
+        android:id="@+id/splitTotalLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/splitTotalLabelText"
+        app:layout_constraintLeft_toLeftOf="@+id/splitTipLabel"
+        app:layout_constraintTop_toBottomOf="@+id/splitTipLabel" />
+
+    <TextView
+        android:id="@+id/splitTotalResultText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:text="@string/uninitializedText"
+        app:layout_constraintLeft_toRightOf="@+id/splitTotalLabel"
+        app:layout_constraintBaseline_toBaselineOf="@+id/splitTotalLabel" />
+</android.support.constraint.ConstraintLayout>
