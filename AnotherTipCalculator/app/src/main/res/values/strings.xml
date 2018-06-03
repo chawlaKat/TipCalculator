@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Another Tip Calculator</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="billLabelText">Bill</string>
+    <string name="percentLabelText">Percent to Tip</string>
+    <string name="splitLabelText">Split between</string>
+    <string name="calculateButtonText">Calculate</string>
+    <string name="splitTipLabelText">Tip Per Person</string>
+    <string name="splitTotalLabelText">Total per Person</string>
+    <string name="uninitializedText">Calculate tip first</string>
+    <string name="outputTipLabelText">Total Tip</string>
+    <string name="outputTotalLabelText">Final Total</string>
+    <string name="noRoundText">No rounding (default)</string>
+    <string name="roundTipText">Round tip up</string>
+    <string name="roundTotalText">Round total up</string>
+</resources>
